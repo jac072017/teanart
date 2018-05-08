@@ -17,3 +17,14 @@ function showSlides() {
     dots[slideIndex-1].className += " active";
     setTimeout(showSlides, 3000); 
 }
+
+function press(){
+    var x = document.getElementById("here").value;
+    if(x==""){
+        alert("Enter a value");
+    }
+    else
+    {
+    alert( x + " " + "You are a subscriber now!");
+}
+}

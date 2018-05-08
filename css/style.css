@@ -1,4 +1,6 @@
-body, html{
+
+
+html, body{
   height:100%;
   padding:0;
   margin:0;
@@ -24,6 +26,8 @@ ul{
   padding-left: 20px;
   padding-right:20px;
   color:#3498DB;
+  
+
 }
 
 .dark{
@@ -39,7 +43,8 @@ header{
   color:#ffffff;
   padding-top:30px;
   min-height:70px;
-  border-bottom:#3ff4e8 3px solid;
+  border-bottom:#3ff4e8 3px solid; 
+  margin-bottom: 0px;
 }
 
 header a{
@@ -65,6 +70,7 @@ header #branding h1{
 header nav{
   float:right;
   margin-top:10px;
+  
 }
 
 header .highlight, header .current a{
@@ -97,6 +103,8 @@ header a:hover{
 
 #showcase p{
   font-size:20px;
+  color:white;
+  text-shadow: 2px 2px #3498DB;
 }
 
 #showcase2{
@@ -108,7 +116,7 @@ header a:hover{
   text-align:center;
   color:#fc5d14;
   text-shadow: 2px 2px #f9fc46;
-
+  margin-top: -46px;
 }
 
 #showcase2 h1{
@@ -118,6 +126,8 @@ header a:hover{
 
 #showcase2 p{
   font-size:20px;
+  color:white;
+  text-shadow: 2px 2px #3498DB;
 }
 
 
