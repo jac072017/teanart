@@ -21,7 +21,7 @@ function showSlides() {
 function press(){
     var x = document.getElementById("here").value;
     if(x==""){
-        alert("Enter a value");
+        alert("Enter a valid email address");
     }
     else
     {
